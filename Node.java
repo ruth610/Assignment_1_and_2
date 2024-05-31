@@ -1,12 +1,18 @@
-package assignment_2;
+package assignment_1;
 
 public class Node {
 	
-	public int data;
-	public Node next;
-	public Node head;
+	Task task;
+    Node next;
+
+    public Node(Task task) {
+        this.task = task;
+        this.next = null;
+    }
+
 	public static void main(String[] args) {
 		
+
 	}
 
 }
